@@ -183,15 +183,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const reviewSuccess = document.getElementById('reviewSuccess');
   let selectedRating = 5;
 
-  // Init star picker to 5
-  const updateStars = (val) => {
-    starPicker.querySelectorAll('button').forEach(btn => {
-      btn.classList.toggle('active', parseInt(btn.dataset.star, 10) <= val);
-    });
-    selectedRating = val;
-    starPicker.dataset.value = val;
-  };
-  updateStars(5);
+  // // Init star picker to 5
+  // const updateStars = (val) => {
+  //   starPicker.querySelectorAll('button').forEach(btn => {
+  //     btn.classList.toggle('active', parseInt(btn.dataset.star, 10) <= val);
+  //   });
+  //   selectedRating = val;
+  //   starPicker.dataset.value = val;
+  // };
+  // updateStars(5);
 
   if (starPicker) {
     const stars = starPicker.querySelectorAll('button');
