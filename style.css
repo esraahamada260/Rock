@@ -494,6 +494,11 @@ ul { list-style: none; }
   font-size: 1.4rem;
 }
 
+.booking {
+  text-decoration: underline;
+  color: var(--text);
+}
+
 /* ============================================================
    SERVICES
    ============================================================ */
