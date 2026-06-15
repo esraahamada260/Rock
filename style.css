@@ -262,8 +262,8 @@ ul { list-style: none; }
 @media (min-width: 900px) {
   .nav-cta {
     display: inline-block;
-    padding: 12px 28px;
-    font-size: 0.65rem;
+    padding: 12px;
+    font-size: 0.63rem;
   }
 }
 
@@ -316,7 +316,7 @@ ul { list-style: none; }
 
 .mobile-menu a {
   font-family: var(--font-serif);
-  font-size: 2rem;
+  font-size: 0.70rem;
   color: var(--text);
   display: block;
 }
@@ -675,13 +675,12 @@ ul { list-style: none; }
    REVIEWS
    ============================================================ */
 .reviews-layout {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 80px;
-  align-items: start;
+  display: block;
 }
 
-.reviews-left .section-title { margin-bottom: 48px; }
+
+
+ .section-title { margin-bottom: 48px; }
 
 .carousel-wrap {
   overflow: hidden;
@@ -1150,7 +1149,7 @@ a.detail-value:hover { color: var(--primary); }
   .section-padding { padding: 96px 0; }
   .about-grid { gap: 60px; }
   .services-grid { gap: 40px 48px; }
-  .reviews-layout { gap: 60px; }
+  /* .reviews-layout { gap: 60px; } */
   .contact-layout { gap: 60px; }
   .faq-layout { gap: 60px; }
 }
@@ -1165,7 +1164,7 @@ a.detail-value:hover { color: var(--primary); }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
   .gallery-item.wide { grid-column: span 2; }
 
-  .reviews-layout { grid-template-columns: 1fr; gap: 60px; }
+  /* .reviews-layout { grid-template-columns: 1fr; } */
   .contact-layout { grid-template-columns: 1fr; gap: 48px; }
   .faq-layout { grid-template-columns: 1fr; gap: 48px; }
 
@@ -1187,8 +1186,8 @@ a.detail-value:hover { color: var(--primary); }
 
   .form-row { grid-template-columns: 1fr; }
 
-  .review-form-box,
-  .contact-form-wrap form { padding: 32px 24px; }
+  /* .review-form-box,
+  .contact-form-wrap form { padding: 32px 24px; } */
 
   .footer-grid { grid-template-columns: 1fr; }
   .footer-brand { grid-column: span 1; }
